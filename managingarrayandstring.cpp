@@ -21,7 +21,7 @@ int main() {
     //int myNumber [5] = {34, 56, -21, 5002, 365};
     // One can partially initialize an array as well, first two to the number showed below and then rest goes to 0.
     //int myNumber [5] = {34, 56}
-    // this intializes integers to 0; int myNumber [5] = {);
+    // this intializes integers to 0; int myNumber [5] = {};
     // other correct formats
     //int myNumber [] = {45, 45 ,345};
     //const int array_length = 9;
