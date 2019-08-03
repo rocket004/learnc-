@@ -22,3 +22,21 @@ int main(){
     return 0;
     
 }
+
+
+// void as a function return type
+
+void printmessage(); // declare void function, look at this carefully. It is a nonvalue-returning function
+
+int main() {
+    printmessage(); // call function
+}
+
+void printmessage() // define function
+{
+    std::cout << "I am new to this bullshit"<<std::endl;
+}
+
+// void printmessage(void)
+// look at this carefully
+// void is one of the parameter of this function called printmessage
