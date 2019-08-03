@@ -1,0 +1,24 @@
+
+#include <iostream>     //std::cout
+#include <string>       //std::string
+#include <vector>       //std::vector
+#include <algorithm>    //std::sort
+#include <array>        //std::array
+
+
+// int main(void) or int main(), in c++ means the same thing, function "main" does not take any argument
+// this was the case in c++
+// Now in c, it is little bit different. int main(void) mean the main function shall or will never take any arguments. when you use int main () the function main will use any number of arguments supply at call.
+
+
+//https://www.thoughtco.com/definition-of-void-958182
+// read that page first before solving the coding exercises.
+// https://www.saddleback.edu/uploads/mse/cs/1b/chapter7.pdf
+
+
+
+int main(){
+    
+    return 0;
+    
+}
