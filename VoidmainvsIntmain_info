@@ -40,3 +40,17 @@ void printmessage() // define function
 // void printmessage(void)
 // look at this carefully
 // void is one of the parameter of this function called printmessage
+
+// refer http://www.cplusplus.com/doc/tutorial/functions/
+
+void printmessage(void) // or this is same as "...void printmessage(void)
+{
+    std::cout << "I am printing this non-value returning void function";
+}
+
+int main ()
+{
+    printmessage();
+    std::cout << std::endl;
+    return 0;
+}
