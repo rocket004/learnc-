@@ -1,0 +1,39 @@
+#include <iostream>     //std::cout
+#include <string>       //std::string
+#include <vector>       //std::vector
+#include <algorithm>    //std::sort
+#include <array>        //std::array
+
+
+int area(int length, int width);            /* function declaration */
+
+/* MAIN PROGRAM: */
+int main()
+{
+    int this_length, this_width;
+    
+    std::cout << "Enter the length: ";             /* <--- line 9 */
+    std::cin >> this_length;
+    std::cout << "Enter the width: ";
+    std::cin >> this_width;
+    std::cout << "\n";                             /* <--- line 13 */
+    
+    std::cout << "The area of a " << this_length << "x" << this_width;
+    std::cout << " rectangle is " << area(this_length, this_width) << std::endl;
+    
+    return 0;
+}
+/* END OF MAIN PROGRAM */
+
+/* FUNCTION TO CALCULATE AREA: */
+int area(int length, int width)      /* start of function definition */
+{
+    int number;
+    
+    number = length * width;
+    
+    return number;
+}                                 /* end of function definition */
+/* END OF FUNCTION */
+
+
