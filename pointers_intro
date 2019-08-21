@@ -1,0 +1,22 @@
+#include <iostream>     //std::cout
+#include <string>       //std::string
+#include <vector>       //std::vector
+#include <algorithm>    //std::sort
+#include <array>       //std::array
+using namespace std;
+
+int main() {
+    
+    int x = 2;
+    // to declare a pointer variable named ptr that points to an integer variable named x
+    int *ptr = &x; // pointer variable's name is ptr, the * delcares the pointer to an integer value which is denoted by the variable name x
+    // data_type *pointer_name; add value if applicable
+    
+    cout << "the value of x: " << x << endl;                                     // the value variable stores
+    cout << "the memory address where the variable is stored : " << &x << endl;  // memory of the variable
+    cout << "the memory address where the variable is stored : " << ptr << endl; // refers to the pointer itself
+    cout << "in order to print the value pointed by ptr : " << *ptr << endl;     // the value pointer points to
+    
+    
+    return 0;
+}
