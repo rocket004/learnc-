@@ -1,0 +1,37 @@
+#include <iostream>     //std::cout
+#include <string>       //std::string
+#include <vector>       //std::vector
+#include <algorithm>    //std::sort
+#include <array>       //std::array
+using namespace std;
+
+
+int main() {
+    
+    int a = 0 ,b = 0;
+    
+    // asks the user to enter integers as inputs to be stored in the variables 'a' and 'b' respectively.
+    
+    cout << "enter integer a : ";
+    cin >> a;
+    cout << "enter integer b : ";
+    cin >> b;
+    
+    // There are also two integer pointers named ptrA and ptrB.
+    // Assign the values of 'a' and 'b' to ptrA and ptrB respectively.
+    int *ptrA = &a;
+    int *ptrB = &b;
+    
+    // display all of them.
+    cout << "the value stored in variable a : " << a << endl;
+    cout << "the value stored in variable b : " << b << endl;
+    cout << "the value of pointer A : " << *ptrA << endl;
+    cout << "the value of pointer B : " << *ptrB << endl;
+
+    cout << ptrA << endl;
+    cout << ptrB << endl;
+    
+    return 0;
+}
+
+
