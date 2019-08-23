@@ -1,0 +1,26 @@
+#include <iostream>     //std::cout
+#include <string>       //std::string
+#include <vector>       //std::vector
+#include <algorithm>    //std::sort
+#include <array>       //std::array
+using namespace std;
+
+
+int main() {
+    
+    int box = 5;
+    int *ptr = &box;
+    int **dPtr = &ptr;
+    
+    cout << "box holds: " << box << endl;                 // value the box contains
+    cout << "box lives at: " << &box << endl;             // the address where box lives
+    cout << "pointer points to address: " << ptr << endl; // name of the pointer that you created is called "ptr" here, it points at the memory address where the box lives.
+    cout << "the thing that ptr points to has the value: " << *ptr << endl;
+    cout << " ptr lives at: " << &ptr << endl;
+    
+    // https://www.youtube.com/watch?v=ZMDYsr9scGo
+   
+    return 0;
+}
+
+
