@@ -70,6 +70,25 @@ int main() {
         cout << array1[m] << endl;
     }
     
+      /*
+    std::size_t n{};
+    std::cout << "Enter size\n";
+    std::cin >> n;
+    
+    int array[n]{};
+    
+    std::cout << "Enter values\n";
+    
+    for(auto i = 0; i < n; i++) {
+        std::cin >> array[i];
+    }
+    
+    for(auto num : array) {
+        std::cout << num << ", ";
+    }
+    std::cout << '\n';
+    
+     */
     
     
     // Pointer #4
