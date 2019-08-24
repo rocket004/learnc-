@@ -48,7 +48,30 @@ int main() {
     
     // Pointer #3
     
-    // Write a C++ program to find the max of an integral data set. The program will ask the user to input the number of data values in the set and each value. The program prints on screen a pointer that points to the max value.
+  // Write a program to find the max of an integral data set. The program will ask the user to input the number of data values in the set and each value. The program prints on screen a pointer that points to the max value.
+    
+    // user enters the size of the dataset
+    int n = 0;
+    cout  << "enter the size of the array: " << endl;
+    cin >> n;
+    
+    // create the array using 'for' loop
+    cout << "enter " << n << " values in this array" << endl;
+    
+    int m = 0;
+    int array1[] = {0};
+    
+    
+    for (m = 0; m < n; m++) {
+        cin >>  array1[m];
+    }
+    
+    // display the array using 'for' loop
+    for (m = 0; m < n; m++) {
+        cout << array1[m] << " ";
+    }
+    
+    cout << endl;
     
     
     
