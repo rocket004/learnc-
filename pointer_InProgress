@@ -2,7 +2,7 @@
 #include <string>       //std::string
 #include <vector>       //std::vector
 #include <algorithm>    //std::sort
-#include <array>       //std::array
+#include <array>        //std::array
 using namespace std;
 
 
@@ -121,6 +121,18 @@ int main() {
     
     // Pointer #5
     // Given the string "A string." Print on one line the letter on the index 0, the pointer position and the letter t. undate the pointer to pointer +2. Then, in another line print the pointer and the letters r and g of the string (using the pointer).
+    
+    /*
+    char str[] = "A string.";
+    char *prt_str = str;
+    cout << "the given string is: " << str << endl;
+    cout << "letter on index 0 is: " << str[0] << endl;
+    cout << "pointer position: " << *prt_str << endl;
+    cout << "use pointer for letter t: " << prt_str[3] << endl;
+    prt_str += 2;
+    cout << *prt_str << endl;
+    cout << prt_str[1] << endl;
+    */
     
     return 0;
 }
