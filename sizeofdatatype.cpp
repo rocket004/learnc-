@@ -12,3 +12,5 @@ int main()
     cout << "Size of wchar_t : " << sizeof(wchar_t) << endl;
     return 0;
 }
+
+// this is the comment on master repo on remote repo. Under here, make sure to merge the comment from local repo or local master on users computer.
