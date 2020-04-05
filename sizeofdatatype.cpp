@@ -13,5 +13,8 @@ int main()
     return 0;
 }
 
+/ adding this comment on master on local repo.
+// merge this commented file in the remote repo or remote master
+// this is the comment on master repo on remote repo. Under here, make sure to merge the comment from local repo or local master on users computer.
 // adding this comment on master on local repo.
 // merge this commented file in the remote repo or remote master
