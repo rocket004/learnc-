@@ -12,3 +12,6 @@ int main()
     cout << "Size of wchar_t : " << sizeof(wchar_t) << endl;
     return 0;
 }
+
+// adding this comment on master on local repo.
+// merge this commented file in the remote repo or remote master
