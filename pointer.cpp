@@ -30,7 +30,7 @@ int main() {
     
     // Write a program that asks the user to enter integers as inputs to be stored in the variables 'a' and 'b' respectively. There are also two integer pointers named ptrA and ptrB. Assign the values of 'a' and 'b' to ptrA and ptrB respectively, and display them.
     
-    /*
+    
      int a = 2;
      int b = 5;
      int *ptrA = &a;
@@ -40,13 +40,13 @@ int main() {
      cout << "the value stored in variable b is: " << b << endl;
      cout << "the pointer ptrA points to address: " << ptrA << endl;
      cout << "the pointer ptrB points to address: " << ptrB << endl;
-     cout << "the variable a lives at: " << &a << endl;
-     cout << "the variable b lives at: " << &b << endl;
+     cout << "the variable a lives at: " << &a << endl; // or ptrA
+     cout << "the variable b lives at: " << &b << endl; // or ptrB
      cout << "the thing that pointer ptrA points to has the value: " << *ptrA << endl;
      cout << "the thing that pointer ptrB points to has the value: " << *ptrB << endl;
      cout << "pointer ptrA lives at: " << &ptrA << endl;
      cout << "pointer ptrB lives at: " << &ptrB << endl;
-    */
+    
     
     // Pointer #3
     
