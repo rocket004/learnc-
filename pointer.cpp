@@ -24,13 +24,13 @@ int main() {
      cout << " ptr lives at: " << &ptr << endl;
      
      // https://www.youtube.com/watch?v=ZMDYsr9scGo
-     */
+    */
     
     // Pointer #2
     
     // Write a program that asks the user to enter integers as inputs to be stored in the variables 'a' and 'b' respectively. There are also two integer pointers named ptrA and ptrB. Assign the values of 'a' and 'b' to ptrA and ptrB respectively, and display them.
     
-    
+    /*
      int a = 2;
      int b = 5;
      int *ptrA = &a;
@@ -46,7 +46,7 @@ int main() {
      cout << "the thing that pointer ptrB points to has the value: " << *ptrB << endl;
      cout << "pointer ptrA lives at: " << &ptrA << endl;
      cout << "pointer ptrB lives at: " << &ptrB << endl;
-    
+    */
     
     // Pointer #3
     
@@ -187,6 +187,10 @@ int main() {
     // exception handling
     
     // Going forward (optional): contains taops about processions, new features.
+    
+    
+    int age = 30;
+    int* PointsToInt = &age;
     
     
     return 0;
