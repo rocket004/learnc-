@@ -5,6 +5,36 @@
 #include <array>        //std::array
 using namespace std;
 
+// pointer to a class
+
+class Person
+{
+    
+public:
+    
+    string name;
+    int age;
+    
+    Person(string n, int a)
+    {
+        name = n;
+        age = a;
+    }
+    
+    //~Person();
+    
+    void speak()
+    {
+        cout << "Name = " << name << endl;
+        cout << "Age = " << age << endl;
+    }
+    
+private:
+    
+    string n;
+    int a;
+    
+};
 
 int main() {
     
@@ -188,11 +218,58 @@ int main() {
     
     // Going forward (optional): contains taops about processions, new features.
     
-    
+    /*
     int age = 30;
-    int* PointsToInt = &age;
+    // These two notations are the same thing
+    int *PointsToInt = &age;
+    // pointer initialize to &age.
+    // A pointer like any other data type contains a junk value
+    // unless it has been initialized.
+    
+    // int* PointsToInt = &age;
+    cout << "print 1: " << age << endl;
+    cout << "print 2: " << PointsToInt << endl;
+    cout << "print 3: " << &PointsToInt << endl;
+    cout << "print 4: " << *PointsToInt << endl; // ghost age that covers the age
+     */
+    
+    // Source: http://www.certiology.com/tutorials/c-plus-plus-tutorial/pointer-to-members-in-c-plus-plus-classes.html
+    
+    /*
+    // class type pointer
+    
+    Person p("Jhonson",21);
+    Person* ptr = &p; // class type pointer, it stores the memory address of the object p of class Person
+    p.speak();
+    cout<< "print the first pointer info for a check = " << ptr <<endl;
+
+    ptr->name = "Ben";
+    ptr->age =45;
+    ptr->speak();
+    cout<< "print the second pointer info for a check = " << ptr <<endl;
+  */
+    
+    // pointer to class data members
+    
+    Person pp("brad", 22);
+    pp.speak();
+    int Person::*ptr1 = &Person::age; // pointer to data member age
+    string Person::*ptr2 = &Person::name; // point to data member name
+    cout << "print these two pointers = " << ptr1 << endl;
+    cout << "print these two pointers = " << ptr2 << endl;
+
+    pp.*ptr1 = 44;
+    pp.*ptr2 = "ben";
+    pp.speak();
     
     
     return 0;
 }
+
+
+
+
+
+
+
 
